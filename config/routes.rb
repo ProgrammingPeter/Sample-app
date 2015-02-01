@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+
+  get 'users/new'
+
   get 'statis_pages/home'
 
   get 'statis_pages/help'
 
   get 'statis_pages/about'
-
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
